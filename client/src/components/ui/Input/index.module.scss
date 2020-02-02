@@ -1,0 +1,23 @@
+@import "../../../style/vars";
+
+.input_wrapper{
+    .input{
+        width: 200px;
+        line-height: 30px;
+        border: 1px solid $color-black;
+        border-radius: 4px;
+        font-size: 16px;
+        box-sizing: border-box;
+        outline: none;
+        padding: 0 5px;
+        &::placeholder{
+            font-size: 16px;
+            color: lighten($color-black, 20%);
+        }
+    }
+    .error{
+        font-size: 14px;
+        color: $color-error;
+        font-weight: 600;
+    }
+}

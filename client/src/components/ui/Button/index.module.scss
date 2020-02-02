@@ -1,0 +1,19 @@
+@import "../../../style/vars";
+
+.button{
+    width: 200px;
+    border-radius: 4px;
+    line-height: 30px;
+    background: $color-primary;
+    color: $color-black;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #aaa;
+    margin-top: 10px;
+    transition: .15s;
+    &:active{
+        box-shadow: 1px 1px 5px #aaa;
+    }
+}
