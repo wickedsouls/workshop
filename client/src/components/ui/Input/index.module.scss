@@ -1,6 +1,8 @@
 @import "../../../style/vars";
 
 .input_wrapper{
+    position: relative;
+    display: inline-block;
     .input{
         width: 200px;
         line-height: 30px;
@@ -10,6 +12,7 @@
         box-sizing: border-box;
         outline: none;
         padding: 0 5px;
+        margin-top: 25px;
         &::placeholder{
             font-size: 16px;
             color: lighten($color-black, 20%);
@@ -19,5 +22,8 @@
         font-size: 14px;
         color: $color-error;
         font-weight: 600;
+        position: absolute;
+        left: 5px;
+        top: 0px;
     }
 }

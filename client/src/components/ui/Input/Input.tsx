@@ -6,7 +6,7 @@ interface InputProps {
    error?:string;
    onInputChange:Function;
    type:'number'|'text';
-   value:string | number;
+   value:string | number | undefined;
 }
 
 const Input = (props: InputProps): JSX.Element => {
