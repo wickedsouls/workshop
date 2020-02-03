@@ -12,7 +12,7 @@ import Loader from "../ui/Loader/Loader";
 interface AppProps{
    onInputChange:Function,
    workshop:Workshop,
-   fetchData: (input:string)=>void;
+   fetchData: typeof actions.fetchData
 }
 
 const App = (props:AppProps) => {
