@@ -1,5 +1,7 @@
 ## Task 
-### install client and server dependencies
-`npm install`
+### install client 
+`npm install:client`
+### install server 
+`npm install:server`
 ### run project
 `npm start`
